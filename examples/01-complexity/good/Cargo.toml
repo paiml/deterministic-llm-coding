@@ -1,0 +1,8 @@
+[package]
+name = "complexity-good"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "simple_functions"
+path = "src/main.rs"

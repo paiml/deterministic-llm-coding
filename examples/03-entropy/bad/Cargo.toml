@@ -1,0 +1,8 @@
+[package]
+name = "entropy-bad"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "copy_paste_code"
+path = "src/main.rs"

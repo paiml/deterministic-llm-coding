@@ -1,0 +1,8 @@
+[package]
+name = "entropy-good"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "dry_code"
+path = "src/main.rs"

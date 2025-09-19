@@ -1,0 +1,8 @@
+[package]
+name = "provability-bad"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "unsafe_operations"
+path = "src/main.rs"

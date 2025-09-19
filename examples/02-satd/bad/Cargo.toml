@@ -1,0 +1,8 @@
+[package]
+name = "satd-bad"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "todo_everywhere"
+path = "src/main.rs"

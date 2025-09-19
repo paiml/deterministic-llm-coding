@@ -1,0 +1,32 @@
+[workspace]
+resolver = "2"
+members = [
+    "examples/01-complexity/bad",
+    "examples/01-complexity/good",
+    "examples/02-satd/bad",
+    "examples/02-satd/good",
+    "examples/03-entropy/bad",
+    "examples/03-entropy/good",
+    "examples/04-churn/bad",
+    "examples/04-churn/good",
+    "examples/05-provability/bad",
+    "examples/05-provability/good",
+    "examples/06-dead-code/bad",
+    "examples/06-dead-code/good",
+    "examples/07-documentation/bad",
+    "examples/07-documentation/good"
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/paiml/deterministic-llm-coding"
+description = "Educational examples for deterministic LLM coding with PMAT"
+keywords = ["llm", "ai", "code-quality", "pmat", "deterministic"]
+categories = ["development-tools"]
+
+[workspace.dependencies]
+# Common dependencies for all examples
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

@@ -1,0 +1,8 @@
+[package]
+name = "provability-good"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "safe_code"
+path = "src/main.rs"

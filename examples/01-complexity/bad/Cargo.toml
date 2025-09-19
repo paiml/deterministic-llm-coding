@@ -1,0 +1,8 @@
+[package]
+name = "complexity-bad"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "nested_nightmare"
+path = "src/main.rs"
